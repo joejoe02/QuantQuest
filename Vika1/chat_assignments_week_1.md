@@ -6,141 +6,8 @@
 ✅ Document math concepts in notebook & README
 
 🧠 Math to Learn
-Simple Returns:
-𝑟
-𝑡
-=
-𝑃
-𝑡
-−
-𝑃
-𝑡
-−
-1
-𝑃
-𝑡
-−
-1
-r 
-t
-​
- = 
-P 
-t−1
-​
- 
-P 
-t
-​
- −P 
-t−1
-​
- 
-​
- 
+{Sjá Math_vika_1.png}
 
-Log Returns:
-𝑟
-𝑡
-𝑙
-𝑜
-𝑔
-=
-ln
-⁡
-(
-𝑃
-𝑡
-𝑃
-𝑡
-−
-1
-)
-r 
-t
-log
-​
- =ln( 
-P 
-t−1
-​
- 
-P 
-t
-​
- 
-​
- )
-
-Moving Average (MA):
-𝑀
-𝐴
-𝑡
-=
-1
-𝑛
-∑
-𝑖
-=
-0
-𝑛
-−
-1
-𝑃
-𝑡
-−
-𝑖
-MA 
-t
-​
- = 
-n
-1
-​
- ∑ 
-i=0
-n−1
-​
- P 
-t−i
-​
- 
-
-Rolling Volatility:
-𝜎
-𝑡
-=
-1
-𝑛
-−
-1
-∑
-(
-𝑟
-𝑖
-−
-𝑟
-ˉ
-)
-2
-σ 
-t
-​
- = 
-n−1
-1
-​
- ∑(r 
-i
-​
- − 
-r
-ˉ
- ) 
-2
- 
-​
- 
 
 🛠 Mini‑Assignment (Code in Python)
 1️⃣ Fetch Data
@@ -148,8 +15,7 @@ r
 Use yfinance (easy option):
 
 python
-Copy
-Edit
+
 import yfinance as yf
 data = yf.download(['AAPL','MSFT'], start='2023-01-01', end='2024-01-01')
 2️⃣ Explore & Plot
@@ -198,13 +64,16 @@ Optional: notes/week1_video_notes.md
 Watch these and take notes (quiz coming in 2 weeks):
 
 📈 Time Series Analysis for Stock Prices (freeCodeCamp)
+https://www.youtube.com/watch?v=5rM1fXzpH4c
 
 📊 Stock Returns and Volatility Explained (Quantopian)
+https://www.youtube.com/watch?v=2dD5nM-3shM
+
 
 ✏️ Extra Practice (from the worksheet I gave you)
 If you’d like more hands-on:
 
-Use the 15‑day sample dataset I created earlier.
+Use the 15‑day sample dataset I created earlier. (week_1_learning.md og Stock_Math_Practice_Dataset.csv)
 
 Compute returns, MA, and volatility manually to check understanding.
 
