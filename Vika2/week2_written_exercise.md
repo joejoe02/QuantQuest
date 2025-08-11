@@ -9,6 +9,8 @@ Answer the following questions in your own words. You may refer to Chapter 12 of
 
 ### 1. What does it mean for a time series to be *stationary*? Why is stationarity important in time series modeling?
 
+Stationary process is a type of stochastic process (random process) where the statistical properties, like the mean and variance do not change over time. Stationarity is a crucial concept in time series analysis because it simplifies modeling and forecasting. A stationary time series has statistical properties (mean, variance, autocovariance) that do not vary over time, making it easier to model patterns and predict future values. Non-stationary series, which exhibit trends or seasonality, can lead to inaccurate model results.
+
 ---
 
 ### 2. What is the difference between **autocovariance** and **autocorrelation**? Why is autocorrelation often preferred in practice?
